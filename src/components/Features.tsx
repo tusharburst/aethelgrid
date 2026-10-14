@@ -32,8 +32,8 @@ const featuresData = [
   },
   {
     icon: HeartPulse,
-    title: 'Auto Recovery',
-    description: 'Plan your own recovery and backup workflow',
+    title: 'Auto Backups',
+    description: 'Plan your own backup workflow',
     span: 'col-span-1 row-span-1',
   },
   {
