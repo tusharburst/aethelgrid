@@ -6,15 +6,15 @@ import NetherlandsFlag from '../icons/flags/NetherlandsFlag';
 
 const serverLocations = [
   {
-    country: 'United States',
-    specs: 'AMD EPYC™ 9634 / Ampere Altra',
-    flag: USFlag,
+    country: 'India',
+    specs: 'AMD Ryzen™ 9 9950X',
+    flag: IndiaFlag,
     position: { top: '35%', left: '18%' },
   },
   {
-    country: 'Netherlands',
-    specs: 'AMD Ryzen™ 9 5900X / Intel® Xeon®',
-    flag: NetherlandsFlag,
+    country: 'Germany',
+    specs: ' EPYC 7F72 3.20 GHz',
+    flag: GermanyFlag,
     position: { top: '25%', left: '49%' },
   },
 ];
