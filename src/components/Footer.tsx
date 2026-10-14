@@ -3,8 +3,8 @@ import DiscordLogo from '../icons/DiscordLogo'; // Menggunakan kembali ikon Disc
 
 const Footer = () => {
   const socialLinks = [
-    { icon: Twitter, href: 'https://x.com' },
-    { icon: Instagram, href: 'https://instagram.com' },
+    { icon: Twitter, href: 'https://x.com/aethelgrid' },
+    { icon: Instagram, href: 'https://www.instagram.com/aethelgrid/' },
   ];
 
   const linkSections = [
@@ -52,7 +52,7 @@ const Footer = () => {
               Hosting for bots, Minecraft servers, and VPS workloads. Built for people who like to build.
             </p>
             <div className="flex items-center space-x-4 mt-6">
-              <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://discord.gg/EcNgZyJM9j" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <DiscordLogo className="w-6 h-6" />
               </a>
               {socialLinks.map((link, index) => {
